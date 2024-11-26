@@ -1,0 +1,119 @@
+
+.main--content{
+    position: relative;
+    width: 100%;
+    padding: 1rem;
+}
+
+.main--title{
+    color: rgba(133, 99, 186, 255);
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+.sidebar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 250px;
+    height: 100vh;
+    padding: 0 1.7rem;
+    overflow: hidden;
+    transition: all 0.5s linear;
+    /* background-color: #141b2d; */
+    background-color: rgb(23, 51, 68);
+    box-shadow: 0 2px 5px hsl(0, 2%, 19%);
+}
+
+
+
+.menu{
+    height: 88px;
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
+
+.menu li{
+    padding: 1rem;
+    margin: 8px 0;
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+}
+
+.menu a {
+    color:white;
+    font-size: 17px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: -18px;
+    margin-bottom: -12px;
+    margin-left: -15px;
+}
+
+.menu a span{
+    overflow: hidden;
+}
+
+.menu a i{
+    font-size: 1.2rem;
+}
+
+.logout{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    top: 450px;
+}
+
+
+.menu li::before{
+    position: relative;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 100%;
+    border-bottom: 4PX solid transparent;
+    border-left: 4px solid transparent;
+    box-sizing: border-box;
+    transform: translateX(100%);
+}
+.menu li::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    border-top: 4PX solid transparent;
+    border-right: 4px solid transparent;
+    box-sizing: border-box;
+    transform: translateX(-100%);
+}
+
+
+.admin{
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+.cher{
+    width: 50px;
+}
+
+.bordd{
+    width: 40px;
+    height: 40px;
+}
+.boo{
+    width: 35px;
+}
+.conng{
+    width: 50px;
+    height: 45px;
+    margin-left: -10px;
+}

@@ -1,0 +1,59 @@
+.tabulr--wrappr{
+    background-color: #fff;
+    margin-top: 1rem;
+    border-radius: 10px;
+    padding: 2rem;
+    width: 700px;
+    height: 600px;
+    box-shadow: 0 0 5px 2px;
+}
+/* .tabl--container{
+    width: 1220px;
+    box-shadow: #191970;
+    background-color: black;
+
+} */
+.carde{
+    background-color: #fff;
+    border-radius: 10px;
+    width: 500px;
+    padding: 20px -12px;
+    margin-left: 690px;
+    margin-top: -168px;
+    position: relative;
+    box-shadow: 0 0 5px 2px;
+}
+.form{
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+.forme-label{
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 12px;
+    
+}
+.form-control{
+    margin-bottom: 12px;
+}
+.form-text{
+    font-size: 17px;
+    color: #191970;
+    font-weight: 500;
+}
+.btn-primary{
+    color: #fff;
+    font-weight: 800;
+    font-size: 16px;
+    background-color: DodgerBlue;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+}
+.btn{
+    width: 120px;
+    height: 40px;
+    color: #fff;
+    font-weight: 800;
+    font-size: 16px;
+}
